@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공통속성*/
+*{margin:0; padding:0;}
+body{font-size:9pt; font-family:'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,AppleGothic,sans-serif; color:#3D3D3D;}
+ul, ol, li{list-style:none;}
+a{outline:none; select-dummy:expression(this.hideFocus=true);}
+a{color:#f3f3f3; text-decoration:none;}
+a:hover{color:#fff; text-decoration:none;}
+img, fieldset{border:none;}
+legend{width:0; height:0; display:none;}
+caption{display:none;}
+table{border-collapse: collapse;}
+select::-ms-expand {  display: none;  }
+img{max-width:100%; height:auto;}
+/*공통속성 END*/
+
+.t_map_box {float:left; width:100%;  background:#214a80;}
+.content_left {float:left; padding:20px 5px 16px 15px; width:26%; height:100%;}
+.t_map_title {font-size:29px; color:#fff; font-weight:600; font-family:'Nanum Square', '맑은 고딕','Malgun Gothic'; margin-left:-15px;}
+#btn_krihs { margin-left:5px; padding: 3px 7px; font-size: 13px; font-weight:600; color:#fff;  letter-spacing:0.05em; cursor:pointer;}
+/* #btn_krihs {background-size: cover; width:110px; height:30px;background-image:url(../imgs/portal/top_logo.jpg); background-repeat: no-repeat; overflow:hidden;} */
+.time_toggle {font-size:13px; color:#fff; margin-top:-2px; padding: 0px 25px 10px 7px; float:left; }
+.titleDiv {width:100%; padding:10px 5px 10px 15px; margin:0px;}
+
+/* left_distCal div */
+.left_distCal {background:#426593; border-radius:3px; padding: 10px; width:100%; height:50px;  margin-top:15px;}
+.left_distCal input {width:15px; height:15px; float:left;}
+#year {clear:both; height:23px; width:60px; background:#e3e8ef; border:none; float:left; padding-left:2px; font-size: 12px;}
+#month {height:23px; width:40px; background:#e3e8ef; border:none; float:left; margin-left:3px; padding-left:2px; font-size: 12px;}
+#day {height:23px; width:40px; background:#e3e8ef; border:none; float:left; margin-left:1px; padding-left:2px; font-size: 12px;}
+#hour {height:23px; width:40px; background:#e3e8ef; border:none; float:left; margin-left:3px; padding-left:2px; font-size: 12px;}
+#min {height:23px; width:40px; background:#e3e8ef; border:none; float:left; margin-left:1px; padding-left:2px; font-size: 12px;}
+#btn_routeCal {float: right; margin-left: 1px; padding: 3px 7px; background:#ee554f; font-size: 13px; font-weight:600; color:#fff; letter-spacing:-0.08em; cursor:pointer;}
+
+/* searchKeywordDiv */
+.searchKeywordDiv {background:#426593; border-radius:3px; padding: 10px; width:100%; height:22px;  margin-top:3px;}
+.title {font-size:13px; color:#fff; font-weight:600; float:left; line-height:23px;}
+#btn_select {float: right; margin-left:5px; padding: 3px 7px; background:#ff9a29; font-size: 13px; font-weight:600; color:#fff;  letter-spacing:-0.08em; cursor:pointer;}
+#searchKeyword {margin-left: 10px; float:left; width:162px; height:23px; background:#a5b5cb; padding-left: 5px; border:none;}
+
+/* searchResultDiv, 검색결과 */
+.searchResultDiv {background:#426593; border-radius:3px; padding: 10px; margin-top:15px; width:100%; height:440px;}
+.searchResultDiv ul {  }
+.searchResultDiv li {padding-left: 10px; font-size: 14px; color:#fff; font-weight:600; border-bottom:1px solid #5977a0; line-height:36px;}
+
+#map_div {float:right; width:70%; height:700px; overflow:hidden;}
+
+/* t_map_txtbox div */
+.t_map_txtbox {clear:both; padding:10px 15px; background:#eeeeee; float:left; width:861px;}
+.t_map_txtbox li {padding-left: 25px; font-size: 14px; color:#666666; line-height:27px; }
+.t_map_txtbox span {font-size:14px; color:#2a2a2a; font-weight:600;}
+
+.input_box03 {padding:23px 25px; background:#dbdbdb; float:left; width:259px; height:88px;}
+.i_box03_txt01 {font-size:17px; color:#214a80; font-weight:600; float:left; line-height:23px; width:100%;}
+#totDistance {margin-top: 15px; float:left; width:125px; height:36px; background:#fff; padding-left: 15px; border:none; border-top:1px solid #bdbdbd; border-left:1px solid #bdbdbd;}
+#resultValue {float: left; margin-top: 15px;  margin-left:12px; padding: 8px 32px 9px 32px; background:#00a799; font-size: 15px; font-weight:600; color:#fff;  letter-spacing:-0.08em; cursor:pointer;}
+
+/* tmap.js, 검색결과 상세보기 */
+.btn-s-e {margin-left:40%; font-size:11px; font-weight:bold; padding:2px; cursor:pointer; }
+.btn-s-e .btn-str {float:left; border-radius:3px;  padding: 2px 5px; background:red; color:white;}
+.btn-s-e .btn-pass {float:left; border-radius:3px; margin-left:3px; padding: 2px 5px; background:gray; color:white;}
+.btn-s-e .btn-end {float:left; border-radius:3px; margin-left:3px; padding: 2px 5px; background:red; color:white;}
+
+.searchDetailDiv { border-radius:10px 10px 10px 10px; background-color:#2f4f4f; position: relative; line-height: 15px; padding: 2px 2px; right:65px; width:200px;}
+.detail_info { padding:5px; font-size: 11px; font-weight: bold ; line-height: 15px; color : white }
